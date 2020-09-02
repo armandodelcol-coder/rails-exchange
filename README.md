@@ -1,24 +1,34 @@
-# README
+## About
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was built on the bootcamp of onebicode.com. I built step by step with the classes taught by the course and customized it myself by improving some features and adding others.
 
-Things you may want to cover:
+This project is in the air, please visit to see \O/ => [rails-exchange](https://myrails-exchange.herokuapp.com/)
 
-* Ruby version
+## Dependencies
 
-* System dependencies
+I build this project use a linux Ubuntu 20.04 SO but i generate and run all dependencies in docker.
 
-* Configuration
+- Ruby 2.7.1
+- rails 6.0.3
+- bundler
+- node 12+
+- yarn 1.22.4
+- postgresql
 
-* Database creation
+## Deployment
 
-* Database initialization
+This project is deployed on Heroku with CI in Codeship.
 
-* How to run the test suite
+## Local Configs
 
-* Services (job queues, cache servers, search engines, etc.)
+If you want to fork or clone this project to run in your machine, you will need to have a docker and docker-compose installed.
 
-* Deployment instructions
+- run the `docker-compose build`
+- run the `docker-compose run --rm app bundle`
+- run the `docker-compose run --rm app yarn`
+- run the `docker-compose run --rm app bundle exec rails db:migrate`
+- run the `docker-compose up`
 
-* ...
+## Final words
+
+Thank's for visit my github project =).

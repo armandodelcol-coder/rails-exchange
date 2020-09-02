@@ -30,4 +30,14 @@ document.addEventListener('turbolinks:load', function () {
 
   document.getElementById('target_currency').onchange = cleanForm
   document.getElementById('source_currency').onchange = cleanForm
+
+  document.getElementById('change-button').onclick = function () {
+    let target = document.getElementById('target_currency').value
+    let source = document.getElementById('source_currency').value
+
+    document.getElementById('target_currency').value = source
+    document.getElementById('source_currency').value = target
+
+    handleConvert()
+  }
 })
