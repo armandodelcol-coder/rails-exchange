@@ -2,7 +2,7 @@
 
 This project was built on the bootcamp of onebicode.com. I built step by step with the classes taught by the course and customized it myself by improving some features and adding others.
 
-This project is in the air, please visit to see \O/ => [rails-exchange](https://myrails-exchange.herokuapp.com/)
+This project is online, please visit to see \O/ => [rails-exchange](https://myrails-exchange.herokuapp.com/)
 
 ## Dependencies
 
